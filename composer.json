@@ -1,0 +1,20 @@
+{
+  "name": "isinlor/form",
+  "description": "Take control of your forms with simple, yet powerful architecture.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Isinlor\\Form\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tomasz Darmetko",
+      "email": "isinlor@gmail.com"
+    }
+  ],
+  "require": {
+    "twig/twig": "^2.3"
+  }
+}

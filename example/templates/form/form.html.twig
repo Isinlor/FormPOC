@@ -1,0 +1,11 @@
+<form {% for name, attribute in form.attributes -%} {{ name -}}="{{ attribute }}" {% endfor -%}>
+
+{% block inputs %}
+    {% for input in form.inputs %}
+
+        {% include 'form/input.html.twig' %}
+
+    {% endfor %}
+{% endblock %}
+
+</form>
